@@ -18,8 +18,7 @@ import string
 
 #stripe.api_key = settings.STRIPE_SECRET_KEY
 #used for authenticate with stripe
-stripe.api_key = 'sk_test_51HCND6DvfKocuQ5TJjkQabT2yyc4PoY7lzFdSENHqHYHn12Bc00vwy8JAUdORBBLqCPuLclKixBBKLVerIQBWkkg00ZsfFvjIx'
-#stripe.api_key = 'pk_test_51HCND6DvfKocuQ5TITYZBNS0ie81ZauTA3kbq2tJ9PVynNyhgD0heP91NFfqlFcZqabmRIxK0pmcevrtJ0yBsPfK00gtOf4BPC'
+stripe.api_key = 'your stripe secret key'
 
 
 def create_ref_code():
